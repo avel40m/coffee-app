@@ -1,0 +1,27 @@
+.contenedor-cart {
+    width: 90%;
+    margin: auto;
+}
+
+.card-cart {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+}
+
+.card-cart-imagen {
+    text-align: end;
+}
+
+.card-cart-imagen img {
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.total {
+    border-top: 1px solid;
+    text-align: end;
+    padding: 10px 6rem;
+}

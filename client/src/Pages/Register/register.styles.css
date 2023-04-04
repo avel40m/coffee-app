@@ -1,0 +1,47 @@
+.register {
+    display: flex;
+    flex-direction: row;
+}
+
+.register-img {
+    background-image: url('../../assets/coofeereg.jpg');
+    width: 40%;
+    height: 90vh;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.register-formulario {
+    width: 50%;
+    margin: auto;
+}
+
+.formulario-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario-group input {
+    padding: 10px 8px;
+    border: 1px solid #00000029;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.bottom-register {
+    margin-top: 1rem;
+    border: none;
+    background-color: #373c93;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 400ms all ease-in;
+}
+
+.bottom-register:hover {
+    background-color: rgba(0, 8, 255, 0.8);
+}

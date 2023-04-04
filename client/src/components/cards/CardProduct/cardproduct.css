@@ -1,0 +1,60 @@
+.card-title {
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: serif;
+    text-decoration: underline;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 0;
+    gap: 10px;
+}
+
+.card-product-details {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #0000003b;
+    padding: 1rem;
+}
+
+.card-product-image {
+    height: 50%;
+    width: 50%;
+    align-self: center;
+    border-radius: 10%;
+}
+
+.card-product-title {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.card-product-price {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-product-buttom {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    border: none;
+    background-color: white;
+    color: brown;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+.card-product-buttom:hover {
+    background-color: brown;
+    color: white;
+}
